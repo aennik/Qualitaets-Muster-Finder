@@ -1,1 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit / lokale geheime Dateien
+.streamlit/secrets.toml
+
+# Daten nicht öffentlich hochladen
+data/
+
+# Test- oder Fehlerausgaben
+plot_fails/
+
+# Systemdateien
+.DS_Store
+Thumbs.db
