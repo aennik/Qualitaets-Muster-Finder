@@ -1,22 +1,34 @@
 <div align="center">
 
-# Qualitäts-Muster-Finder
+# Qualitäts-Muster-Finder 🏥
 
-### Krankenhausanalyse · Datenvisualisierung · Streamlit-App
+### Krankenhausanalyse · Qualitätsindikatoren · Mustererkennung
 
-Dieses Projekt ist mein Abschlussprojekt aus der Weiterbildung zur Data Analystin.
-
-Ziel war es, Qualitätsdaten deutscher Krankenhäuser zu analysieren und Muster zwischen auffälligen Qualitätsindikatoren und strukturellen Krankenhausmerkmalen sichtbar zu machen.
+![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=plastic&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=plastic&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualisierung-3F4F75?style=plastic&logo=plotly&logoColor=white)
+![KNIME](https://img.shields.io/badge/KNIME-Modell-FDD800?style=plastic&logoColor=black)
+![Healthcare](https://img.shields.io/badge/Healthcare-Data%20Analysis-2E8B57?style=plastic)
 
 </div>
 
 ---
 
-## Projektidee
+## Worum geht es?
 
-In diesem Projekt geht es nicht darum, einzelne Krankenhäuser direkt zu bewerten.
+Der **Qualitäts-Muster-Finder** ist mein Abschlussprojekt aus der Weiterbildung zur Data Analystin.
 
-Stattdessen sollen Daten verständlich aufbereitet und Zusammenhänge sichtbar gemacht werden, zum Beispiel:
+In dem Projekt analysiere ich Qualitätsdaten deutscher Krankenhäuser und untersuche, ob sich Muster zwischen auffälligen Qualitätsindikatoren und strukturellen Merkmalen erkennen lassen.
+
+Dabei geht es nicht darum, einzelne Krankenhäuser zu bewerten.  
+Der Fokus liegt darauf, Daten aufzubereiten, Zusammenhänge sichtbar zu machen und Ergebnisse verständlich darzustellen.
+
+---
+
+## Fragestellungen
+
+Im Projekt geht es unter anderem um Fragen wie:
 
 - Welche Qualitätsindikatoren treten besonders häufig auffällig auf?
 - Gibt es Unterschiede nach Krankenhausgröße?
@@ -26,37 +38,22 @@ Stattdessen sollen Daten verständlich aufbereitet und Zusammenhänge sichtbar g
 
 ---
 
-## Tools & Technologien
+## Was ich dabei gemacht habe
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=plastic&logo=pandas&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=plastic&logo=streamlit&logoColor=white)
-![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=plastic&logoColor=white)
-![plotly](https://img.shields.io/badge/plotly-3F4F75?style=plastic&logo=plotly&logoColor=white)
-![KNIME](https://img.shields.io/badge/KNIME-FDD800?style=plastic&logoColor=black)
-
-</div>
-
----
-
-## Inhalte des Projekts
-
-| Bereich | Beschreibung |
+| Bereich | Inhalt |
 |---|---|
 | Datenaufbereitung | Einlesen, Bereinigen und Zusammenführen verschiedener Datentabellen |
-| Zielvariable | Erstellung einer Auffälligkeitslogik auf Basis auffälliger Qualitätsindikatoren |
+| Zielvariable | Erstellung einer Logik für auffällige Qualitätsindikatoren |
 | Analyse | Untersuchung von Qualitätsindikatoren und Krankenhausmerkmalen |
 | Visualisierung | Diagramme, Kennzahlen und Vergleichsansichten |
 | Streamlit-App | Interaktive Darstellung der Ergebnisse mit mehreren Seiten |
-| KNIME-Modell | Einfacher Decision Tree zur Einschätzung einer Risikogruppe über dem Median |
+| KNIME-Modell | Einfacher Decision Tree zur Einschätzung einer Risikogruppe |
 
 ---
 
 ## App-Bereiche
 
-Die Streamlit-App enthält verschiedene Seiten, unter anderem:
+Die Streamlit-App enthält mehrere Bereiche, zum Beispiel:
 
 - Startseite mit Projektüberblick
 - Daten- und Kennzahlenübersicht
