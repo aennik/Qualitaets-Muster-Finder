@@ -70,13 +70,24 @@ Die Streamlit-App enthält mehrere Bereiche, zum Beispiel:
 ```text
 qualitaets-muster-finder/
 │
-├── app.py
+├── 00_Krankenhausanalyse.py
 ├── data_loader.py
 ├── design.py
-├── ui.py
-├── utils4.py
+├── utils.py
 │
 ├── pages/
+│   ├── 01_Startseite.py
+│   ├── 02_Datenuebersicht.py
+│   ├── 03_Krankenhausstruktur.py
+│   ├── 04_Personalstruktur.py
+│   ├── 05_Fortbildung.py
+│   ├── 06_Uni_Status.py
+│   ├── 07_Traegerschaft.py
+│   ├── 08_Korrelationen.py
+│   ├── 09_Regionale_Muster.py
+│   ├── 10_Uebersichtskarte.py
+│   └── 11_Schlusswort.py
+│
 ├── assets/
 ├── .streamlit/
 │
